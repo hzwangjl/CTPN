@@ -20,6 +20,7 @@ class AnchorText:
             index+=1
         return anchors
 
+    ## zhushi shangx
     def scale_anchor(self, anchor, h, w):
         x_ctr=(anchor[0]+anchor[2])*0.5
         y_ctr=(anchor[1]+anchor[3])*0.5
